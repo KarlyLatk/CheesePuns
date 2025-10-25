@@ -18,7 +18,7 @@ public class CheeseWriter {
            fw.write(stringBytes);
            fw.close();
        }catch (Exception e){
-           // do something here
+           System.out.println("Error while writing to "+filename +": "+e.getMessage());
        }
    }
 
